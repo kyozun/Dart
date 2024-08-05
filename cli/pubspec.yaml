@@ -1,5 +1,5 @@
-name: Product
-description: Product application.
+name: product
+description: product application.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
@@ -10,6 +10,7 @@ environment:
 dependencies:
   # path: ^1.8.0
   mysql1: ^0.20.0
+  cli_table: ^1.0.2
 
 dev_dependencies:
   lints: ^3.0.0
