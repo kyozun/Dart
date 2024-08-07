@@ -2,7 +2,7 @@ services:
   mariadb:
     image: 'mariadb:latest'
     environment:
-      - 'MYSQL_DATABASE=cuong'
+      - 'MYSQL_DocATABASE=cuong'
       - 'MYSQL_ROOT_PASSWORD=pizza'
     ports:
       - '3306:3306'
